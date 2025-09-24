@@ -9,9 +9,9 @@
 
 #include <stdio.h>
 
-#define MAX_CHAR_VALUE_SIZE_IN_CHARS    16 /* include '\0' */
+#define MAX_CHAR_VALUE_SIZE_IN_CHARS    8 /* include '\0' */
 
-/* 
+/*
  * return the absolute value of I.
  */
 static int abs ( int i )
@@ -20,7 +20,7 @@ static int abs ( int i )
 }
 
 /*
- * the itoa function converts a integer value to its string representation.
+ * the itoa function converts a integer value into its string representation.
  * it supports different base system from 2 (Binary) to 36.
  */
 static void itoa ( int value, char * result, /* in, out */ int * size, int base )
