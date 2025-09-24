@@ -116,5 +116,6 @@ int main ( )
 
     len = copy_and_replace ( unknown_chars_1, len, unknown_chars_2, MAX_TEST_SIZE );
     printf ( "%d:%s\n", len, unknown_chars_2 );
+
     return 0;
 }
